@@ -1,0 +1,31 @@
+.course-card{
+    display: inline-block;
+    width: 300px;
+    color: black;
+    background-color: aliceblue;
+    /* border: 1px solid red; */
+    margin: 10px;
+    padding: 10px;
+    box-shadow:  1px 2px 10px 1px rgb(107, 107, 107);
+}
+
+.course-card .course-img{
+    max-width: 100%;
+    background-color: rgb(189, 248, 122);
+    height: 200px;
+}
+
+.course-card  button{
+    color: rgb(22, 22, 22);
+    background-color: rgb(189, 248, 122);
+    border: 2px solid rgb(189, 248, 122);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: white;
+    color : rgb(0, 0, 0);
+
+}
